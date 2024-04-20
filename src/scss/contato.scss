@@ -1,0 +1,12 @@
+//*Variáveis
+$bgContato: #608848;
+
+.contato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $bgContato;
+    width: 100%;
+    height: 80vh;
+    margin: 0 auto;
+}

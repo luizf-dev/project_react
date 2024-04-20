@@ -1,0 +1,13 @@
+//*Variáveis
+$bgBody: rgb(166, 144, 144);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: $bgBody;
+}

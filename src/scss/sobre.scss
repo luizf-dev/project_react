@@ -1,0 +1,12 @@
+//*Variáveis
+$bgSobre: #8c7474;
+
+.sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $bgSobre;
+    width: 100%;
+    height: 80vh;
+    margin: 0 auto;
+}

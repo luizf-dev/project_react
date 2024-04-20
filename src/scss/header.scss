@@ -1,0 +1,38 @@
+//*Variáveis
+$bgNavbar: #546978;
+$colorLinks: purple;
+
+ul{
+    list-style: none;
+}
+
+.navbar{
+    background-color: $bgNavbar;
+    height: 10vh;
+}
+
+nav, .header-ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    gap: 30px;
+    font-size: 1.4rem;
+}
+
+a:hover{
+    color: $colorLinks;  
+    font-weight: 900;
+
+}
+
+@media screen and (max-width: 480px) {
+
+    nav, .header-ul{
+        gap: 30px;
+        font-size: 1rem;
+    }
+
+    
+}
