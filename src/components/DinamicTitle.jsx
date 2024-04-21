@@ -9,13 +9,13 @@ function DinamicTitle({text}){
     useEffect(() => {
         const interval = setInterval(() => {
             setFontSize((prevSize)=>{
-                if(prevSize < 7){
-                    return prevSize + 0.5;
+                if(prevSize < 2){
+                    return prevSize + 0.1;
                 }else{
                     return 1;
                 }
             });
-        }, 200);
+        }, 150);
 
         return () => clearInterval(interval);
     }, []);
