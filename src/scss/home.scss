@@ -11,3 +11,17 @@ $bgHome: pink;
     height: 80vh;
     margin: 0 auto;
 }
+
+.dinamic-title{
+    overflow-x:visible;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch; 
+}
+
+@media only screen and(max-width: 768px) {
+
+    .dinamic-title{
+        color: #000000;       
+    }
+    
+}

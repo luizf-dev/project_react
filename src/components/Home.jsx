@@ -1,7 +1,8 @@
-import React from "react";
+import React,{useState, useEffect} from "react";
 import '../scss/home.scss';
 import Header from './Header';
 import Footer from "./Footer";
+import DinamicTitle from './DinamicTitle';
 
 
 function Home(){
@@ -9,7 +10,7 @@ function Home(){
             <div>
                 <Header/>
                 <div className="home">
-                    <h1>Home</h1>
+                    <DinamicTitle text={"Bem-vindo a Home!"}/>
                 </div>
                 <Footer/>
             </div>
